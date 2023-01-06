@@ -74,5 +74,65 @@
     font-size: 1.3rem;
 }
 
-/* donet section start here  */
+/* donet section end here  */
+
+
+/* donet plane section start here  */
+.donet-plan-section{
+    display: flex;
+    flex-direction: column;
+    gap:45px;
+    align-items: center;
+    text-align: center;
+    margin: 0 180px;
+    margin-bottom: 200px;
+}
+.donet-plane-card{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+.donet-plane-card .card{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 300px;
+    height: 350px;
+    padding: 26px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    text-align: left;
+    border-radius: 8px;
+}
+.donet-plane-card .card img{
+    width: 80px;
+}
+.donet-plane-card .card .card-title{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.donet-plane-card .card .card-para{
+    color:#757575;
+}
+/* artical section one start here  */
+.artical-section{
+    display: flex;
+    gap: 50px;
+    margin: 0 150px;
+    margin-bottom: 150px;
+    
+}
+.artical-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.artical-left-btn{
+    align-self: start;
+}
+.artical-right-img{
+    max-width: 600px;
+    border-radius: 6px;
+}
+/* artical section one end here  */
+/* donet plane section end here  */
 /* main end here  */
