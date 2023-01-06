@@ -1,5 +1,6 @@
 /* google fonts link  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 
 /* commone style  */
 *{
@@ -26,6 +27,9 @@
     font-size: 1.3rem;
     border-radius: 5px;
     border: none;
+}
+.primary-btn:hover{
+    background-color: #90735f;
 }
 /* header start here  */
 .header{
@@ -69,7 +73,8 @@
 }
 .donet-section input{
     border: none;
-    border-bottom: 1px solid gray;
+    outline-style: none;
+    border-bottom: 1px solid gray; 
     text-align: center;
     font-size: 1.3rem;
 }
@@ -113,6 +118,15 @@
 .donet-plane-card .card .card-para{
     color:#757575;
 }
+#one{
+   background-color:  rgba(79, 157, 166, 0.1);
+}
+#two{
+    background-color: rgba(255, 89, 89, 0.1);;
+}
+#three{
+    background-color: #d9c1af;
+}
 /* artical section one start here  */
 .artical-section{
     display: flex;
@@ -136,3 +150,58 @@
 /* artical section one end here  */
 /* donet plane section end here  */
 /* main end here  */
+
+
+
+/* form start here  */
+.from{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-bottom: 150px;
+    align-items: center;
+    text-align: center;
+}
+.huday{
+    background-color: rgb(197, 212, 55);
+    width: 600px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    
+}
+ form input{
+    padding: 8px;
+    border:none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+ }
+.huday .btn{
+    padding: 8px;
+    border:none;  
+    background-color: #FD6E0A;
+    color:white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+/* form end here  */
+/* footer start here  */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.footer-text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px;
+    text-align: center;
+}
+.footer-text h2{
+    font-family: 'Shrikhand', cursive;
+    color:rgb(232, 43, 43);
+}
+/* footer end here  */
