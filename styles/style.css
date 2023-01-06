@@ -43,3 +43,36 @@
     color: rgb(233, 217, 217);
 }
 /* header end here  */
+/* main start here  */
+/* donet section start here  */
+.donet-section{
+    margin: 150px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+}
+.donet-btn .btn{
+    padding: 40px;
+    color:#757575;
+    font-size: 1.6rem;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.donet-btn .btn:hover{
+    border: 2px solid rgb(232, 43, 43);
+    color: rgb(232, 43, 43);
+    background-color: #ac8a84;
+    border-radius: 5px;
+    
+}
+.donet-section input{
+    border: none;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+/* donet section start here  */
+/* main end here  */
